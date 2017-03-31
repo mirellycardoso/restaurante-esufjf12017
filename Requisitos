@@ -1,0 +1,23 @@
+Introdução:
+
+O sistema apresentado a seguir foi desenvolvido com intuito de facilitar o funcionamento de restaurantes, permitindo tanto um controle de clientes, como dos produtos do menu e também, dos seus funcionários. O programa possui um uso prático e eficiente, onde o cliente é inicialmente cadastrado no sistema do restaurante e, posteriormente, ele está liberado para iniciar uma conta. Assim, ele pode solicitar as opções disponíveis no menu e adicioná-las em sua conta e, quando desejar encerrar seu consumo, basta solicitar o fechamento da conta pelo próprio sistema, o qual exibirá o valor total a ser pago.
+
+Requisitos Funcionais:
+
+Requisito Funcional 1: O sistema deve permitir o cliente se cadastrar no sistema utilizando seu e-mail, nome completo, data de nascimento, sexo e escolhendo uma senha. O cliente poderá também fornecer um meio de pagamento válido (cartão de crédito ou débito).
+
+Requisito Funcional 2: Um administrador deve ser capaz de se cadastrar no sistema utilizando seu e-mail, nome completo, razão social do estabelecimento, CNPJ e os dados bancários.
+
+Requisito Funcional 3: O sistema deve permitir que todos os usuários efetuem o login no mesmo utilizando seu email e senha cadastrados.
+
+Requisito Funcional 4: O sistema deve permitir administradores de restaurante cadastrar (adicionar, editar, remover, consultar) novos funcionários. Ao cadastrar um novo usuário, o administrador deve informar o e-mail do funcionário e uma senha.
+
+Requisito Funcional 5: O sistema deve permitir aos administradores do restaurante cadastrar (adicionar, editar, remover, consultar) categorias no cardápio do sistema (categorias seriam as subdivisões dos produtos tais como entradas, pratos principais, sobremesas, bebidas, carta de vinhos e etc…). Ao cadastrar uma nova categoria, o administrador deverá informar o nome da mesma. A consulta de categorias do cardápio pode ser feita por qualquer tipo de usuário logado no sistema.
+
+Requisito Funcional 6: O sistema deve permitir aos administradores do restaurante cadastrar (adicionar, editar, remover, ,bloquear - para que os clientes não possam pedir o prato ou consultar) produtos no cardápio do sistema. Ao cadastrar um novo produto, o administrador deverá informar seu nome, dar uma breve descrição do produto, adicionar ingredientes, adicionar observações (se o produto é gluten free por exemplo), ingredientes opcionais e informar o preço do mesmo. A consulta de produtos do cardápio pode ser feita por qualquer tipo de usuário logado no sistema.
+
+Requisito Funcional 7: O sistema deve permitir ao administrador cadastrar cupons de desconto para os clientes que responderem a pesquisa de satisfação dos itens comprados. O administrador deverá informar em porcentagem ou valor qual o desconto do cupom criado sobre o valor final da conta.
+
+Requisito Funcional 8: O sistema deve permitir ao cliente (conectado à rede wireless do restaurante) abrir uma conta para fazer pedidos. Ao abrir uma conta, o cliente deverá informar o número de sua mesa para que um funcionário do sistema possa ir até ele e aprovar a abertura da conta.
+
+Requisito Funcional 9: O sistema deve informar aos funcionários que um cliente acabou de requisitar a abertura de conta na mesa escolhida pelo cliente. Ao ser notificado e após ir à mesa do cliente, o funcionário poderá aprovar ou recusar a abertura da conta.
