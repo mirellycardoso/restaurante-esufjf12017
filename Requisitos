@@ -21,3 +21,29 @@ Requisito Funcional 7: O sistema deve permitir ao administrador cadastrar cupons
 Requisito Funcional 8: O sistema deve permitir ao cliente (conectado à rede wireless do restaurante) abrir uma conta para fazer pedidos. Ao abrir uma conta, o cliente deverá informar o número de sua mesa para que um funcionário do sistema possa ir até ele e aprovar a abertura da conta.
 
 Requisito Funcional 9: O sistema deve informar aos funcionários que um cliente acabou de requisitar a abertura de conta na mesa escolhida pelo cliente. Ao ser notificado e após ir à mesa do cliente, o funcionário poderá aprovar ou recusar a abertura da conta.
+
+Requisito Funcional 10: O sistema deve permitir ao cliente chamar um atendente à mesa.
+
+Requisito Funcional 11: O sistema deve permitir ao cliente ou funcionário adicionar novos itens do cardápio do carrinho de compras.
+
+Requisito Funcional 12: O sistema deve permitir ao cliente ou funcionário efetuar um pedido de acordo com os itens adicionados no carrinho.
+
+Requisito Funcional 13: O sistema deve permitir ao cliente cadastrar (adicionar, remover, alterar) um meio de pagamento. Os pagamentos devem ser efetuados através de um cartão de crédito ou débito automaticamente. O cliente deverá ter pelo menos um meio de pagamento válido assim portanto, o sistema não deve permitir o cliente remover um meio de pagamento caso este possua somente um cadastrado.
+
+Requisito Funcional 14: O sistema deve permitir ao cliente fechar a conta podendo adicionar novos clientes para a divisão do valor através de seus e-mail de cadastro do sistema. Após o fechamento da conta e o pagamento da mesma, o cliente terá a opção de adicionar gorjeta.
+
+Requisito Funcional 15: O sistema deve permitir ao cliente, após o fechamento de conta, atribuir notas a cada um dos produtos adquiridos. Caso o cliente opine sobre todos os produtos do formulário, o cliente receberá um cupom de desconto.
+
+
+
+
+
+Requisitos Não-Funcionais:
+
+Requisito não funcional 1: O sistema deve ser totalmente aderente aos principais conceitos de Orientação a Objeto (encapsulamento, herança, polimorfismo, tipificação forte, etc.).
+
+Requisito não funcional 2: O sistema deve possuir a estrutura cliente/servidor.
+
+Requisito não funcional 3: O sistema deve tratar a concorrência para inserir, deletar e atualizar registros no banco de dados.
+
+Requisito não funcional 4: O sistema deve utilizar o banco de dados relacional PostgreSQL 9.5 – instalado no servidor.
