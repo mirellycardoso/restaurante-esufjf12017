@@ -34,6 +34,18 @@ Requisito Funcional 14: O sistema deve permitir ao cliente fechar a conta podend
 
 Requisito Funcional 15: O sistema deve permitir ao cliente, após o fechamento de conta, atribuir notas a cada um dos produtos adquiridos. Caso o cliente opine sobre todos os produtos do formulário, o cliente receberá um cupom de desconto.
 
+Requisito Funcional 16: O sistema deve permitir ao cliente consultar o seu histórico de compras usando o aplicativo. Cada item do histórico deve mostrar o nome do estabelecimento, os itens comprados, o valor total da conta e a nota dada pelo cliente para aquela compra específica.
+
+Requisito Funcional 17: O sistema deve permitir ao funcionário consultar os pedidos em aberto respeitando a ordem de chegada na cozinha.
+
+Requisito Funcional 18: O sistema deve permitir ao funcionário alterar o status (em espera para ser feito, sendo feito e pronto para ser servido) de um pedido em aberto.
+
+Requisito Funcional 19: O sistema deve permitir o administrador consultar estatísticas as quais mostram características dos tipos de cliente, métodos de pagamento, pedidos mais comuns, etc.
+
+Requisito Funcional 20: O sistema deve permitir o administrador consultar a receita total de vendas em um determinado período estipulado pelo mesmo (dia, semana, mês, ano, ou entre datas específicas).
+
+Requisito Funcional 21: O sistema deve permitir o administrador informar aos clientes o tempo médio de espera para a entrega de pedidos.
+
 Requisito Funcional 22: O sistema deve permitir o administrador efetuar abertura / fechamento dos serviços de seu estabelecimento para que clientes possam efetuar pedidos.
 
 Requisito Funcional 23: O sistema deve permitir o administrador cadastrar novas promoções sobre itens específicos do cardápio informando o novo preço e a validade da promoção.
@@ -56,6 +68,14 @@ Requisito não funcional 2: O sistema deve possuir a estrutura cliente/servidor.
 Requisito não funcional 3: O sistema deve tratar a concorrência para inserir, deletar e atualizar registros no banco de dados.
 
 Requisito não funcional 4: O sistema deve utilizar o banco de dados relacional PostgreSQL 9.5 – instalado no servidor.
+
+Requisito não funcional 5: O sistema deve apresentar o recurso de ajuda on-line sensível ao contexto de seu uso.
+
+Requisito não funcional 6: O estabelecimento deve ter conexão pública de WI-FI com acesso ao servidor do aplicativo para que o cliente possa acessá-lo.
+
+Requisito não funcional 7: Todo usuário deve necessariamente estar logado e com conexão ao WI-FI do próprio restaurante para poder usá-lo.
+
+Requisito não funcional 8: O aplicativo deve estar disponível para o sistema Android 4.X ou superior.
 
 Requisito não funcional 9: O sistema deve possibilitar que todos os relatórios sejam pré-visualizados antes do envio para a impressora.
 
