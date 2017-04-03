@@ -1,3 +1,21 @@
+UNIVERSIDADE FEDERAL DE JUIZ DE FORA
+BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO
+BACHARELADO EM SISTEMAS DE INFORMAÇÃO
+
+
+GABRIEL DOS SANTOS NASCIMENTO - MATRÍCULA 201376133
+GABRIELL LUCAS MEDEIROS - MATRÍCULA 201335046
+LUCAS BRESSAN - MATRÍCULA 201335063
+MIRELLY CARDOSO - MATRÍCULA 201376122
+
+
+DESENVOLVIMENTO DE UM SISTEMA WEB PARA GERENCIAMENTO DE RESTAURANTES
+
+
+JUIZ DE FORA - 03/04/2017
+
+
+
 Introdução:
 
 O sistema apresentado a seguir foi desenvolvido com intuito de facilitar o funcionamento de restaurantes, permitindo tanto um controle de clientes, como dos produtos do menu e também, dos seus funcionários. O programa possui um uso prático e eficiente, onde o cliente é inicialmente cadastrado no sistema do restaurante e, posteriormente, ele está liberado para iniciar uma conta. Assim, ele pode solicitar as opções disponíveis no menu e adicioná-las em sua conta e, quando desejar encerrar seu consumo, basta solicitar o fechamento da conta pelo próprio sistema, o qual exibirá o valor total a ser pago.
