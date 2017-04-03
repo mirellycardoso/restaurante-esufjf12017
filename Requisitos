@@ -34,6 +34,15 @@ Requisito Funcional 14: O sistema deve permitir ao cliente fechar a conta podend
 
 Requisito Funcional 15: O sistema deve permitir ao cliente, após o fechamento de conta, atribuir notas a cada um dos produtos adquiridos. Caso o cliente opine sobre todos os produtos do formulário, o cliente receberá um cupom de desconto.
 
+Requisito Funcional 22: O sistema deve permitir o administrador efetuar abertura / fechamento dos serviços de seu estabelecimento para que clientes possam efetuar pedidos.
+
+Requisito Funcional 23: O sistema deve permitir o administrador cadastrar novas promoções sobre itens específicos do cardápio informando o novo preço e a validade da promoção.
+
+Requisito Funcional 24: O sistema deve permitir o administrador cadastrar novos combos de promoções onde combo subentende-se como um agrupamento de itens do cardápio. O administrador, deverá determinar o valor do combo e a validade do mesmo (optativa).
+
+Requisito Funcional 25: O sistema deve permitir o administrador cadastrar novos condimentos no cardápio. Deverá ser informado o nome do condimento e preço (opcional).
+
+Requisito Funcional 26: O sistema deve permitir o administrador gerar um relatório contendo a relação entre as características de seus clientes (sexo, idade...) com os produtos vendidos.
 
 
 
@@ -47,3 +56,11 @@ Requisito não funcional 2: O sistema deve possuir a estrutura cliente/servidor.
 Requisito não funcional 3: O sistema deve tratar a concorrência para inserir, deletar e atualizar registros no banco de dados.
 
 Requisito não funcional 4: O sistema deve utilizar o banco de dados relacional PostgreSQL 9.5 – instalado no servidor.
+
+Requisito não funcional 9: O sistema deve possibilitar que todos os relatórios sejam pré-visualizados antes do envio para a impressora.
+
+Requisito não funcional 10: O sistema deve ser capaz de gerar o cupom fiscal após a confirmação de um pagamento.
+
+Requisito não funcional 11: O sistema deve enviar um link de confirmação quando um usuário criar uma nova conta no mesmo.
+
+Requisito não funcional 12: Todo cupom poderá ser utilizado no pedido subsequente a geração do mesmo.
